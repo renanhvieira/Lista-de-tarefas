@@ -1,0 +1,25 @@
+*{
+    margin: 0; padding: 0;
+    box-sizing: border-box;
+    letter-spacing: 1px;
+    font-family: bebas neue;
+    text-transform: capitalize;
+}
+
+body{
+    min: height 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(45deg, #0870a0 50%, #333)
+}
+
+.completa {
+    text-decoration: line-through;
+    color: #888;
+    cursor: pointer;
+}
+
+button {
+    cursor: pointer;
+}
